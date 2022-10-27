@@ -1,0 +1,13 @@
+9.1
+let str = 'le2, 1hd2, 1nf2, 1ex2, 1gsd2'.match(/1[^e,x]+2/g, '!');
+console.log(str); 
+9.2
+let str = 'x3z, x1z, x6z, x0z'.match(/x[^2-6]+z/g, '!');
+console.log(str); 
+9.3
+let str = 'xAAz, xaz, xBBz, x0z'.match(/x[^A-Z]+?z/g, '!');
+console.log(str); 
+9.4
+let str = 'x1z, xAz, xaz, x0z'.match(/x[^A-Za-z, 1-5]+?z/g, '!');
+console.log(str);     
+

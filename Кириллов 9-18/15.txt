@@ -1,0 +1,6 @@
+15.1
+let str = 'xaz xBz xcz x-z x@z'.match(/x[a-zA-Z-]z/g, '!');
+console.log(str); 
+15.2
+let str = 'xaz x$z x-z xcz x+z x%z x*z'.match(/x[$+-]z/g, '!');
+console.log(str); 

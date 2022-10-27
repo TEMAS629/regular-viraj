@@ -1,0 +1,6 @@
+12.1
+let str = 'xaz x55z x.z x@z'.match(/x[\d|.]+z/g, '!');
+console.log(str); 
+12.2
+let str = 'xhhz x5z x.z x@z'.match(/x[^\da-g{3,7}]z/g, '!');
+console.log(str); 

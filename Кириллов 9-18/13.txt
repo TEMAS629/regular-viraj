@@ -1,0 +1,6 @@
+13.1
+let str = 'x[]z x{}z x.z x()z'.match(/x[\[\]\{\}\(\)]+z/g, '!');
+console.log(str); 
+13.2
+let str = '[abc] {abc} abc (abc) [abc]'.replace(/[^\[\]\{\}\(\)]+/g,'!');
+console.log(str);

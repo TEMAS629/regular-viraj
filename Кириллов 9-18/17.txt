@@ -1,0 +1,6 @@
+17.1
+let str = 'aeeea aeea aea axa axxa axxxa'.match(/ae+a|ax+a/g);
+console.log(str); 
+17.2
+let str = 'aeeea aeea aea axa axxa axxxa'.match(/ae{2}a|ax*a/g);
+console.log(str); 

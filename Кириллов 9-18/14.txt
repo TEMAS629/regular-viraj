@@ -1,0 +1,9 @@
+14.1
+let str = '^xx axx ^zz bkk @ss'.match(/[\^@][\w]{2}/g, '!');
+console.log(str); 
+14.2
+let str = '^xx axx ^zz bkk @ss'.match(/[^\^@][\w]{2}/g, '!');
+console.log(str); 
+14.3
+let str = '^xx axx ^zz bkk'.match(/[^\^][\w]{2}/g, '!');
+console.log(str);

@@ -1,0 +1,6 @@
+16.1
+let str = 'abc def xyz'.match(/^[\w]+/g, '!');
+console.log(str); 
+16.2
+let str = 'abc def xyz'.match(/^[\w]+$/g, '!');
+console.log(str);
