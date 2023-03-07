@@ -1,0 +1,1 @@
+let str = 'aa aba abba abbba abca abea'.match(/ab*a/g, '!'); console.log(str);

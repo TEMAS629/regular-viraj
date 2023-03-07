@@ -1,0 +1,1 @@
+let str = '*+ *q+ *qq+ *qqq+ *qqq qqq+'.match(/q++/g, '!'); console.log(str);

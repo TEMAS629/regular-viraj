@@ -1,0 +1,1 @@
+let str = '23 2+3 2++3 2+++3 345 567'.match(/2++3/g, '!'); console.log(str);

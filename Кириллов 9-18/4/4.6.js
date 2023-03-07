@@ -1,0 +1,1 @@
+let str = '[abc] {abc} abc (abc) [abc]'.replace(/[abc]/g, '!'); console.log(str);

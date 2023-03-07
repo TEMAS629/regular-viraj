@@ -1,0 +1,1 @@
+let str = 'aa aba abba abbba abbbba abbbbba'.match(/ab{4,}a/g, '!'); console.log(str);

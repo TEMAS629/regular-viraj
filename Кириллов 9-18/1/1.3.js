@@ -1,0 +1,1 @@
+let str = 'aba aca aea abba adca abea'.match(/ab.a/g, ""); console.log(str);

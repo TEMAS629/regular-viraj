@@ -1,0 +1,1 @@
+let str = '2+3 223 2223'.match(/2+3/g, '!'); console.log(str);

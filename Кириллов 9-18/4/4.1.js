@@ -1,0 +1,1 @@
+let str = 'a.a aba aea'.match(/a.a/g, '!'); console.log(str);

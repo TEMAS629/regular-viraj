@@ -1,0 +1,1 @@
+let str = 'ab abab abab abababab abea'.match(/(ab)+/g, ' '); console.log(str);
